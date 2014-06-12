@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Super Mario</title>
+    <style>
+        div {
+            display: none;
+        }
+        canvas {
+            border: 1px solid yellowgreen;
+            z-index: 3;
+        }
+        svg {
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+
+	<canvas id="field"
+			width="1024"
+			height="500">
+	</canvas>
+	<div>
+        <img src="images/mario0.png" />
+        <img src="images/mario1.png" />
+        <img src="images/mario2.png" />
+        <img src="images/mario3.png" />
+        <img src="images/mario4.png" />
+        <img src="images/mario5.png" />
+        <img src="images/mario6.png" />
+        <img src="images/mario7.png" />
+	</div>
+    
+    <script src="scripts/mario.js"></script>
+    <script src="scripts/raphael-min.js"></script>
+    <script src="scripts/background.js"></script>
+
+
+</body>
+</html>
